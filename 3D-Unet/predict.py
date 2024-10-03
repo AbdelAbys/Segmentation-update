@@ -42,7 +42,7 @@ def main():
     logging.basicConfig(stream=sys.stdout, level=logging.INFO)
     args = parser.parse_args()
     
-    #The path to the folder where the trained model is saved
+    #To change according to the path where the trained model is saved
     model_dir  = "E:/Data"
 
     #The path of the image that will be used for the segmentation, user of the code can chose an image using command-line.
