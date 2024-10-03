@@ -40,7 +40,7 @@ Description of python scripts:
 
 2) evaluate.py --> Evaluates the trained model on testing dataset and verify the dice score of each case. 
  
-3) predict.py --> Uploads one image and output gives one segmented mask: 
+3) predict.py --> Uploads one image and output gives one segmented mask, need to put the path of trained model: 
 * python predict.py -i image.nii.gz -o seg.nii.gz
 
 4)  predict_2.py --> Uploads dicom series and output gives a segmented image in nifti format and another in Dicom format (a folder containing a series of ".dcm" files): 
